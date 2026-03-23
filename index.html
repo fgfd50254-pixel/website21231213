@@ -16,6 +16,18 @@
       padding: 60px 20px;
       text-align: center;
       color: #022c22;
+      position: relative;
+    }
+    .badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #022c22;
+      color: #bbf7d0;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: bold;
+      font-size: 0.9em;
     }
     header img {
       width: 120px;
@@ -28,15 +40,22 @@
     header p {
       font-size: 1.2em;
     }
+    .free-text {
+      margin-top: 10px;
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #065f46;
+    }
     .btn {
       margin-top: 20px;
       display: inline-block;
-      padding: 12px 24px;
+      padding: 14px 28px;
       background: #022c22;
       color: #bbf7d0;
       border-radius: 999px;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.1em;
     }
     section {
       padding: 60px 20px;
@@ -54,6 +73,13 @@
       border-radius: 20px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.3);
     }
+    .highlight {
+      background: #022c22;
+      color: #bbf7d0;
+      padding: 30px 20px;
+      border-radius: 20px;
+      margin-top: 30px;
+    }
     footer {
       padding: 20px;
       text-align: center;
@@ -65,16 +91,24 @@
 <body>
 
 <header>
-  <!-- Replace src with your uploaded icon file path -->
+  <div class="badge">100% FREE</div>
   <img src="icon.png" alt="Touch Gras Icon">
   <h1>Touch Gras</h1>
   <p>Lock your screen. Reclaim your time.</p>
-  <a href="#" class="btn">Download Now</a>
+  <div class="free-text">No subscriptions. No paywalls. Completely free.</div>
+  <a href="#" class="btn">Download Free</a>
 </header>
 
 <section>
   <h2>What is Touch Gras?</h2>
-  <p>Touch Gras is a smart screen-time lock app that forces you to take a break from your phone. When you hit your limit, your apps lock — and the only way out is to step away and reset.</p>
+  <p>Touch Gras is a smart screen-time lock app that forces you to take a break from your phone — and it's completely free to use forever.</p>
+</section>
+
+<section>
+  <h2>Why It's Free</h2>
+  <div class="highlight">
+    <p>We believe everyone deserves control over their time. No hidden fees, no locked features — just a simple, powerful tool to help you disconnect.</p>
+  </div>
 </section>
 
 <section>
@@ -100,12 +134,33 @@
 </section>
 
 <section>
-  <h2>Why Touch Gras?</h2>
-  <p>Too much screen time? Touch Gras forces you to disconnect, recharge, and actually live life beyond your phone.</p>
+  <h2>Touch Gras vs Paid Apps</h2>
+  <div class="features">
+    <div class="card">
+      <h3>Touch Gras</h3>
+      <p>✅ 100% Free Forever</p>
+      <p>✅ No Ads</p>
+      <p>✅ No Subscriptions</p>
+      <p>✅ All Features Unlocked</p>
+    </div>
+    <div class="card">
+      <h3>Typical Paid Apps</h3>
+      <p>❌ Monthly Fees</p>
+      <p>❌ Locked Features</p>
+      <p>❌ Paywalls</p>
+      <p>❌ Limited Free Version</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Start Now</h2>
+  <p>Take control of your screen time today — for free.</p>
+  <a href="#" class="btn">Get It Free</a>
 </section>
 
 <footer>
-  <p>© 2026 Touch Gras. All rights reserved.</p>
+  <p>© 2026 Touch Gras. 100% Free Forever.</p>
 </footer>
 
 </body>
